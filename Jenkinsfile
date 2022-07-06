@@ -8,7 +8,7 @@ checkout scm
 
 stage('SonarQube Analysis') {
 
-def scannerHome = tool 'sonarqube';
+def scannerHome = tool 'SonarQube';
 
 withSonarQubeEnv() {
 
